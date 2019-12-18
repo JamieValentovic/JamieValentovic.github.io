@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	color: #3B3B3B;
+	font-family: "abril-fatface"
+	font-weight: 300;
+	}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A0D1DB;
+}
+
+li {
+  float: left;
+	
+
+}
+
+li a {
+  display: block;
+  color: #3B3B3B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-family: "alegreya-sc"
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #D4D4D4;
+}
+
+p{color: #3b3b3b;
+	font-family: 'alegreya-sc';
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 50px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
